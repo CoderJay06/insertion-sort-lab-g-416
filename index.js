@@ -43,7 +43,6 @@ function insertionSort(array){
     min = findMinAndRemove(array);
     sortedArray.push(min);
   }
-  
   return sortedArray;
 }
 
