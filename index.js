@@ -37,7 +37,14 @@ function insertionSort(array){
   // push the evaluated result into sorted array 
   // return the sorted array 
   
+  let min;
+  let sortedArray = [];
+  while (array.length !== 0) {
+    min = findMinAndRemove(array);
+    sortedArray.push(min);
+  }
   
+  return sortedArray;
 }
 
 
