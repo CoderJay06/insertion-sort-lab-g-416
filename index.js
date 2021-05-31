@@ -26,8 +26,28 @@ function findMinAndRemove(array){
 
 function insertionSort(array){
   // Algorithm:
-    //
+  // until array is empty
+  // find and remove min value
+  // push min value into our sorted array
+  
+  
+  // Implementation:
+  // while array length is not 0
+  // call findMinAndRemove on array 
+  // push the evaluated result into sorted array 
+  // return the sorted array 
+  
+  
 }
+
+
+
+
+
+
+
+
+
 
 
 
